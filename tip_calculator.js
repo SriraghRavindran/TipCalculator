@@ -4,7 +4,7 @@ function calculateTip(){
     var numOfPeople=document.getElementById('people').value;
 
 if(billAmt===''||serviceQual==0){
-    alert('Value enter kar bsdk');
+    alert('Enter the values');
     return;
 }
 if(numOfPeople==""||numOfPeople==0)
